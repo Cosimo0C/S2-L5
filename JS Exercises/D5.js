@@ -104,17 +104,24 @@ const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 
 let i = 0;
 while (i < numericArray.length) {
   const num = numericArray[i];
-  if (num === "32") {
-    break;
-  } else {
+  if (num !== 32) {
     console.log(num);
+  } else if (num === 32) {
+    break;
   }
+  i++;
 }
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+/*let i = 0;
+const newCharacters = [];
 switch (i < charactersArray.length) {
-}
+  case true:
+    newCharacters = charactersArray.slice(i);
+    break;
+}*/
