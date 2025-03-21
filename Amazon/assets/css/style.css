@@ -1,0 +1,37 @@
+/* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 251, 245);
+}
+header {
+  background-color: #2c3b4d;
+}
+header img {
+  text-align: start;
+  width: 10%;
+  padding-left: 10px;
+}
+header ul {
+  background-color: #36485e;
+}
+header ul li {
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 10px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  margin: 20px;
+}
+.sottotitolo {
+  text-align: center;
+  background-color: rgb(253, 122, 74);
+  color: white;
+  font-size: 12px;
+}
+.holiday {
+  background-image: url();
+}
