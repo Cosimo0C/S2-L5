@@ -118,10 +118,6 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
-/*let i = 0;
-const newCharacters = [];
-switch (i < charactersArray.length) {
-  case true:
-    newCharacters = charactersArray.slice(i);
-    break;
-}*/
+for (let i = 0; i < charactersArray.lenght; i++) {
+  const newCharacters = charactersArray[i];
+}
