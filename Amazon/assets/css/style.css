@@ -75,8 +75,9 @@ main a {
 .box {
   border-radius: 15px;
   width: 22%;
+  height: 400px;
   box-shadow: 0px 1px 9px 4px #00000052;
-  border-right: -4px;
+  margin-right: -4px;
 }
 .bande {
   text-align: center;
